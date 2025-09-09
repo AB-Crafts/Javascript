@@ -1,0 +1,15 @@
+const books = [
+    { name: "The Great Gatsby" },
+    { name: "To Kill a Mockingbird" },
+    { name: "1984" },
+    { name: "Pride and Prejudice" },
+    { name: "Moby Dick" }
+];
+
+// Sort books by their name (alphabetically)
+books.sort((a, b) => a.name.localeCompare(b.name));
+
+// Print sorted book names
+books.forEach(book => {
+    console.log(book.name);
+});
