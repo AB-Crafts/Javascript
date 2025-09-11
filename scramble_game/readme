@@ -1,0 +1,54 @@
+🧩 Word Scramble Game
+
+A simple JavaScript console game where the player has to guess the correct word from a scrambled version.
+
+🚀 Features
+
+Randomly picks a word from a list.
+
+Scrambles the letters of the word.
+
+Lets the player keep guessing until they get it right.
+
+Gives instant feedback: ✅ Correct / ❌ Wrong.
+
+📋 Requirements
+
+Node.js installed on your system.
+
+readline-sync package for user input.
+
+🔧 Installation & Setup
+
+Clone or download the file.
+
+Open a terminal in the project folder.
+
+Install the dependency:
+
+npm install readline-sync
+
+
+Run the game:
+
+node index.js
+
+🎮 How to Play
+
+The program will show you a scrambled word.
+
+Type your guess in the console.
+
+If correct → 🎉 you win!
+
+If wrong → ❌ try again until you succeed.
+
+📂 Example Run
+Unscramble this word: aepch = peach
+🎉 Correct! The word is peach
+
+📝 Customization
+
+You can add more words in the words array:
+
+let words = ["apple", "banana", "grapes", "orange", "peach", "mango", "cherry"];
