@@ -7,7 +7,7 @@ function scramble(word) {
 
 let scrambled = scramble(randomWord);
 let guess;
-
+2
 while (guess !== randomWord) {
   guess = readline.question(`Unscramble this word: ${scrambled} = `);
 
